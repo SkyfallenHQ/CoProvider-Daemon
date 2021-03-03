@@ -17,3 +17,9 @@
 #                        ----DAEMON CODE----                              #
 #                 This file handles the main process                       #
 ###########################################################################
+
+from processmain import CoProviderFramework
+
+if __name__ == '__main__':
+    CPFInstance = CoProviderFramework()
+    CPFInstance.HandleDaemon()
