@@ -1,1 +1,4 @@
 .idea/
+venv/
+CPFD_DB.db
+__pycache__
